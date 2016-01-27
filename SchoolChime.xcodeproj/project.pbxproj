@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5FFDBD71C58D0D9000BBCF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFDBD61C58D0D9000BBCF8 /* AppDelegate.swift */; };
+		C5FFDBD91C58D0D9000BBCF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFDBD81C58D0D9000BBCF8 /* ViewController.swift */; };
+		C5FFDBDC1C58D0D9000BBCF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FFDBDA1C58D0D9000BBCF8 /* Main.storyboard */; };
+		C5FFDBDE1C58D0D9000BBCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FFDBDD1C58D0D9000BBCF8 /* Assets.xcassets */; };
+		C5FFDBE11C58D0D9000BBCF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FFDBDF1C58D0D9000BBCF8 /* LaunchScreen.storyboard */; };
+		C5FFDBEC1C58D0DA000BBCF8 /* SchoolChimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFDBEB1C58D0DA000BBCF8 /* SchoolChimeTests.swift */; };
+		C5FFDBF71C58D0DA000BBCF8 /* SchoolChimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FFDBF61C58D0DA000BBCF8 /* SchoolChimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5FFDBE81C58D0DA000BBCF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FFDBCB1C58D0D9000BBCF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FFDBD21C58D0D9000BBCF8;
+			remoteInfo = SchoolChime;
+		};
+		C5FFDBF31C58D0DA000BBCF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FFDBCB1C58D0D9000BBCF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FFDBD21C58D0D9000BBCF8;
+			remoteInfo = SchoolChime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5FFDBD31C58D0D9000BBCF8 /* SchoolChime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolChime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FFDBD61C58D0D9000BBCF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5FFDBD81C58D0D9000BBCF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5FFDBDB1C58D0D9000BBCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5FFDBDD1C58D0D9000BBCF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5FFDBE01C58D0D9000BBCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5FFDBE21C58D0D9000BBCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FFDBE71C58D0DA000BBCF8 /* SchoolChimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolChimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FFDBEB1C58D0DA000BBCF8 /* SchoolChimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolChimeTests.swift; sourceTree = "<group>"; };
+		C5FFDBED1C58D0DA000BBCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FFDBF21C58D0DA000BBCF8 /* SchoolChimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolChimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FFDBF61C58D0DA000BBCF8 /* SchoolChimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolChimeUITests.swift; sourceTree = "<group>"; };
+		C5FFDBF81C58D0DA000BBCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FFDBD01C58D0D9000BBCF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFDBE41C58D0DA000BBCF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFDBEF1C58D0DA000BBCF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5FFDBCA1C58D0D9000BBCF8 = {
+			isa = PBXGroup;
+			children = (
+				C5FFDBD51C58D0D9000BBCF8 /* SchoolChime */,
+				C5FFDBEA1C58D0DA000BBCF8 /* SchoolChimeTests */,
+				C5FFDBF51C58D0DA000BBCF8 /* SchoolChimeUITests */,
+				C5FFDBD41C58D0D9000BBCF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FFDBD41C58D0D9000BBCF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFDBD31C58D0D9000BBCF8 /* SchoolChime.app */,
+				C5FFDBE71C58D0DA000BBCF8 /* SchoolChimeTests.xctest */,
+				C5FFDBF21C58D0DA000BBCF8 /* SchoolChimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5FFDBD51C58D0D9000BBCF8 /* SchoolChime */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFDBD61C58D0D9000BBCF8 /* AppDelegate.swift */,
+				C5FFDBD81C58D0D9000BBCF8 /* ViewController.swift */,
+				C5FFDBDA1C58D0D9000BBCF8 /* Main.storyboard */,
+				C5FFDBDD1C58D0D9000BBCF8 /* Assets.xcassets */,
+				C5FFDBDF1C58D0D9000BBCF8 /* LaunchScreen.storyboard */,
+				C5FFDBE21C58D0D9000BBCF8 /* Info.plist */,
+			);
+			path = SchoolChime;
+			sourceTree = "<group>";
+		};
+		C5FFDBEA1C58D0DA000BBCF8 /* SchoolChimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFDBEB1C58D0DA000BBCF8 /* SchoolChimeTests.swift */,
+				C5FFDBED1C58D0DA000BBCF8 /* Info.plist */,
+			);
+			path = SchoolChimeTests;
+			sourceTree = "<group>";
+		};
+		C5FFDBF51C58D0DA000BBCF8 /* SchoolChimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5FFDBF61C58D0DA000BBCF8 /* SchoolChimeUITests.swift */,
+				C5FFDBF81C58D0DA000BBCF8 /* Info.plist */,
+			);
+			path = SchoolChimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5FFDBD21C58D0D9000BBCF8 /* SchoolChime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FFDBFB1C58D0DA000BBCF8 /* Build configuration list for PBXNativeTarget "SchoolChime" */;
+			buildPhases = (
+				C5FFDBCF1C58D0D9000BBCF8 /* Sources */,
+				C5FFDBD01C58D0D9000BBCF8 /* Frameworks */,
+				C5FFDBD11C58D0D9000BBCF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolChime;
+			productName = SchoolChime;
+			productReference = C5FFDBD31C58D0D9000BBCF8 /* SchoolChime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5FFDBE61C58D0DA000BBCF8 /* SchoolChimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FFDBFE1C58D0DA000BBCF8 /* Build configuration list for PBXNativeTarget "SchoolChimeTests" */;
+			buildPhases = (
+				C5FFDBE31C58D0DA000BBCF8 /* Sources */,
+				C5FFDBE41C58D0DA000BBCF8 /* Frameworks */,
+				C5FFDBE51C58D0DA000BBCF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FFDBE91C58D0DA000BBCF8 /* PBXTargetDependency */,
+			);
+			name = SchoolChimeTests;
+			productName = SchoolChimeTests;
+			productReference = C5FFDBE71C58D0DA000BBCF8 /* SchoolChimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5FFDBF11C58D0DA000BBCF8 /* SchoolChimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FFDC011C58D0DA000BBCF8 /* Build configuration list for PBXNativeTarget "SchoolChimeUITests" */;
+			buildPhases = (
+				C5FFDBEE1C58D0DA000BBCF8 /* Sources */,
+				C5FFDBEF1C58D0DA000BBCF8 /* Frameworks */,
+				C5FFDBF01C58D0DA000BBCF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FFDBF41C58D0DA000BBCF8 /* PBXTargetDependency */,
+			);
+			name = SchoolChimeUITests;
+			productName = SchoolChimeUITests;
+			productReference = C5FFDBF21C58D0DA000BBCF8 /* SchoolChimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FFDBCB1C58D0D9000BBCF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = YAMAMOTORYO;
+				TargetAttributes = {
+					C5FFDBD21C58D0D9000BBCF8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C5FFDBE61C58D0DA000BBCF8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C5FFDBD21C58D0D9000BBCF8;
+					};
+					C5FFDBF11C58D0DA000BBCF8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C5FFDBD21C58D0D9000BBCF8;
+					};
+				};
+			};
+			buildConfigurationList = C5FFDBCE1C58D0D9000BBCF8 /* Build configuration list for PBXProject "SchoolChime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5FFDBCA1C58D0D9000BBCF8;
+			productRefGroup = C5FFDBD41C58D0D9000BBCF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FFDBD21C58D0D9000BBCF8 /* SchoolChime */,
+				C5FFDBE61C58D0DA000BBCF8 /* SchoolChimeTests */,
+				C5FFDBF11C58D0DA000BBCF8 /* SchoolChimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FFDBD11C58D0D9000BBCF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFDBE11C58D0D9000BBCF8 /* LaunchScreen.storyboard in Resources */,
+				C5FFDBDE1C58D0D9000BBCF8 /* Assets.xcassets in Resources */,
+				C5FFDBDC1C58D0D9000BBCF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFDBE51C58D0DA000BBCF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFDBF01C58D0DA000BBCF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FFDBCF1C58D0D9000BBCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFDBD91C58D0D9000BBCF8 /* ViewController.swift in Sources */,
+				C5FFDBD71C58D0D9000BBCF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFDBE31C58D0DA000BBCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFDBEC1C58D0DA000BBCF8 /* SchoolChimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FFDBEE1C58D0DA000BBCF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFDBF71C58D0DA000BBCF8 /* SchoolChimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5FFDBE91C58D0DA000BBCF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FFDBD21C58D0D9000BBCF8 /* SchoolChime */;
+			targetProxy = C5FFDBE81C58D0DA000BBCF8 /* PBXContainerItemProxy */;
+		};
+		C5FFDBF41C58D0DA000BBCF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FFDBD21C58D0D9000BBCF8 /* SchoolChime */;
+			targetProxy = C5FFDBF31C58D0DA000BBCF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5FFDBDA1C58D0D9000BBCF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FFDBDB1C58D0D9000BBCF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5FFDBDF1C58D0D9000BBCF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FFDBE01C58D0D9000BBCF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5FFDBF91C58D0DA000BBCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5FFDBFA1C58D0DA000BBCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FFDBFC1C58D0DA000BBCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SchoolChime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.life-is-tech.SchoolChime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5FFDBFD1C58D0DA000BBCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SchoolChime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.life-is-tech.SchoolChime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5FFDBFF1C58D0DA000BBCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SchoolChimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.life-is-tech.SchoolChimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolChime.app/SchoolChime";
+			};
+			name = Debug;
+		};
+		C5FFDC001C58D0DA000BBCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SchoolChimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.life-is-tech.SchoolChimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolChime.app/SchoolChime";
+			};
+			name = Release;
+		};
+		C5FFDC021C58D0DA000BBCF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SchoolChimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.life-is-tech.SchoolChimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SchoolChime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5FFDC031C58D0DA000BBCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SchoolChimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.life-is-tech.SchoolChimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SchoolChime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FFDBCE1C58D0D9000BBCF8 /* Build configuration list for PBXProject "SchoolChime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFDBF91C58D0DA000BBCF8 /* Debug */,
+				C5FFDBFA1C58D0DA000BBCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FFDBFB1C58D0DA000BBCF8 /* Build configuration list for PBXNativeTarget "SchoolChime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFDBFC1C58D0DA000BBCF8 /* Debug */,
+				C5FFDBFD1C58D0DA000BBCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5FFDBFE1C58D0DA000BBCF8 /* Build configuration list for PBXNativeTarget "SchoolChimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFDBFF1C58D0DA000BBCF8 /* Debug */,
+				C5FFDC001C58D0DA000BBCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5FFDC011C58D0DA000BBCF8 /* Build configuration list for PBXNativeTarget "SchoolChimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FFDC021C58D0DA000BBCF8 /* Debug */,
+				C5FFDC031C58D0DA000BBCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5FFDBCB1C58D0D9000BBCF8 /* Project object */;
+}
