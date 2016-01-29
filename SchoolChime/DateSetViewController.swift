@@ -9,9 +9,14 @@
 import UIKit
 
 class DateSetViewController: UIViewController {
+    
+    let saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Do any additional setup after loading the view.
     }
@@ -24,6 +29,12 @@ class DateSetViewController: UIViewController {
     @IBAction func reley(){
         self.navigationController?.popViewControllerAnimated(true)
         
+    }
+    
+    @IBAction func save(){
+     //   saveData.setFloat(<#T##value: Float##Float#>, forKey: <#T##String#>)
+        saveData.synchronize()
+
     }
     
 

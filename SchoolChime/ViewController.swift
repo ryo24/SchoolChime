@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     var fileNamePath: String = "chime"
     var audioPlayer: AVAudioPlayer!
+    @IBOutlet var label : UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
